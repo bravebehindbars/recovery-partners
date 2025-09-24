@@ -1,0 +1,172 @@
+main {
+      width: 50%;
+      background: #ddefe0;
+      border: 8px solid darkorange;
+      margin: 0 auto 10px;
+      padding: 10px 20px;
+    }
+    
+    /* Toggle functionality styles */
+    .button-group {
+      margin: 10px 0;
+    }
+    
+    .button-group button {
+      background-color: #4CAF50;
+      border: none;
+      color: white;
+      padding: 8px 16px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 14px;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 4px;
+      transition: background-color 0.3s;
+    }
+    
+    .button-group button:hover {
+      background-color: #45a049;
+    }
+    
+    .interest-list,
+    .goals-list,
+    .skills-list {
+      list-style-type: none;
+      padding-left: 0;
+    }
+    
+    .interest-list li,
+    .goals-list li,
+    .skills-list li {
+      padding: 8px;
+      margin: 4px 0;
+      background-color: #f9f9f9;
+      border-left: 4px solid #4CAF50;
+    }
+    
+    .boxes {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      padding: 15px;
+    }
+
+    .Maggie h1 {
+      font-size: 75px;
+      text-shadow: 5px 5px 8px darkorange;
+      text-align: center;
+    }
+
+    .aboutme,
+    .Interests,
+    .Goals,
+    .Skills,
+    .question,
+    .question1 {
+      border: 4px solid black;
+      margin-bottom: 10px;
+      padding: 10px 20px;
+    }
+
+    .aboutme:hover {
+      background-color: green;
+    }
+
+    .aboutme:hover h2 {
+      background-color: gray;
+    }
+
+    .Interests:hover {
+      background-color: green;
+    }
+
+    .Interests:hover h2 {
+      background-color: gray;
+    }
+
+    .interest-list>li {
+      color: #3985fa;
+    }
+
+    .Goals:hover {
+      background-color: green;
+    }
+
+    .Goals:hover h2 {
+      background-color: gray;
+    }
+
+    .Skills:hover {
+      background-color: green;
+    }
+
+    .Skills:hover h2 {
+      background-color: gray;
+    }
+
+    .question:hover,
+    .question1:hover {
+      background-color: green;
+    }
+
+    .question:hover p,
+    .question1:hover p {
+      background-color: gray;
+    }
+
+    img {
+      border: 10px purple groove;
+      border-radius: 30%;
+      width: 300px;
+      height: 300px;
+      object-fit: cover;
+    }
+
+    .container {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background: url(../images/outdoor.jpg);
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px;
+      justify-content: center;
+    }
+
+    body {
+      font-family: cursive;
+      text-align: center;
+      padding: 50px;
+      background: url(../images/outside.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      font-size: 25px;
+    }
+
+    .clock {
+      border: 3px solid #de0e61;
+      display: inline-block;
+      padding: 30px;
+      border-radius: 15px;
+      background: url(../images/nice1.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    .time {
+      font-size: 5rem;
+      color: #17f042;
+      text-shadow: 3px 5px 3px whitesmoke;
+    }
+
+    /* Initially hide list items */
+    .myInterest,
+    .myListItem,
+    .mySkills {
+      display: none;
+    }
