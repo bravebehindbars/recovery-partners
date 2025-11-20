@@ -6,7 +6,7 @@ body {
   min-height: 100vh;
   margin: 0;
   padding: 0;
-  background: url(../Images/backyard.jpg) center no-repeat;
+  background: url(../images/backyard.jpg) center no-repeat;
   background-size: cover;
   font-family: Arial, sans-serif;
 }
