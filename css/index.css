@@ -6,7 +6,7 @@ body {
   min-height: 100vh;
   margin: 0;
   padding: 0;
-  background: url(../images/backyard.jpg) center no-repeat;
+  background: url(../images/star.jpg) center no-repeat;
   background-size: cover;
   font-family: Arial, sans-serif;
 }
@@ -46,25 +46,22 @@ button:hover {
 }
 
 .myheader {
-  color: deeppink;
+  color: darkmagenta;
   font-size: 2.5rem;
   text-align: center;
   margin: 1.5rem 0 1rem 0;
-  text-shadow: 7px 7px 7px black;
 }
 
 .p, .p1, .p2, .p4 {
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   line-height: 1.5;
   margin: 0.5rem 0;
 }
 
-.p { color: yellow; font-size: 150%; text-shadow: 7px 7px 7px black; }
-.p1 { color: yellow; font-size: 150%;text-shadow: 7px 7px 7px black; }
-.p2 { color: yellow; text-align: center; font-size: 150%; padding: 50px; text-shadow: 7px 7px 7px black;}
-.p4 { color:deeppink; text-align: center; text-shadow: 10px 10px 10px black;}
-
-
+.p { color: dodgerblue; font-size: 150% }
+.p1 { color: darkorchid; font-size: 150% }
+.p2 { color: deepskyblue; text-align: center; font-size: 150%; padding: 50px }
+.p4 { color: deeppink; text-align: center; }
 
 .text-container {
   display: flex;
@@ -107,8 +104,8 @@ button:hover {
 }
 
 .serenityprayer-container {
-  color: deeppink;
-  text-shadow: 7px 7px 7px black;
+  color: darkgreen;
+  text-shadow: 1 1 10px;
   text-align: center;
   margin: 1rem auto;
   max-width: 600px;
@@ -264,5 +261,4 @@ img, iframe {
   100% { transform: translate(-120vw, 120vh); opacity: 0; }
 }
 
-.p5{color: yellow; font-size: 140%;
-text-shadow: 7px 7px 7px black;}
+.p5{color: dodgerblue; font-size: 140%;}
